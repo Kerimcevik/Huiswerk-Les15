@@ -1,0 +1,115 @@
+html {
+  background-color: rgba(220, 30, 30, 0.3);
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: rgba(220, 100, 10, 0.3);
+  /*Zorgt ervoor dat de child div, die nu een inline element is, horizontaal
+  gecentreerd wordt*/
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+header {
+  background-color: rgba(200, 30, 10, 0.3);
+  width: inherit;
+  height: inherit;
+}
+
+footer {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+header, body, footer {
+  padding: 5px;
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+table {
+  margin: 10px;
+}
+
+th {
+  color: white;
+  font-weight: normal;
+}
+
+td {
+  font-weight: bold;
+}
+
+form {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+  display: block;
+  margin: 15px 0px;
+  width: 400px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
+  padding: 5px 4px;
+}
+
+/*Dit maakt de div in de body een inline element, zodat deze(en dus de elementen)
+ horizontaal kunnen worden gecentreerd met text-align: center;(in de body).*/
+.center {
+  display: inline-block;
+}
+
+.menu-button {
+  display: inline-block;
+  background-color: #3D130A;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.menu-button:hover {
+  background-color: #919434;
+  border-style: dashed;
+  color: cyan;
+}
+
+.menu-link {
+  text-decoration: none;
+}
+
+.profiel-foto {
+  width: 400px;
+  height: 500px;
+}
+
+.verzend-button {
+  background-color: #3D130A;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.verzend-button:active {
+  background-color: #919434;
+  color: cyan;
+  border-radius: 5px;
+  border-color: red;
+  border-style: solid;
+  font-weight: bold;
+}
